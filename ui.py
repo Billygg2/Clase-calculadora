@@ -3,7 +3,7 @@ from operaciones import sumar, restar, multiplicar, dividir
 
 def iniciar_ui():
     ventana = tk.Tk()
-    ventana.title("Calculadora")
+    ventana.title("Calculadora Simple")
 
     entrada = tk.Entry(ventana, width=20)
     entrada.grid(row=0, column=0, columnspan=4)
